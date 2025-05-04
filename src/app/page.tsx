@@ -20,6 +20,7 @@ import FormularioLogin from "./components/FomularioLogin";
 import CadastroUsuario from "./components/CadastroUsuario";
 import MeuFormulario from "./components/MeuFormulario";
 import FormHandleForm from "./components/FormHandleForm";
+import FetchDataJavaScript from "./components/FetchDataJavaScript";
 
 export default function Home() {
   return (
@@ -45,7 +46,8 @@ export default function Home() {
       {/* <FormularioLogin /> */}
       {/*  <CadastroUsuario /> */}
       {/*   <MeuFormulario /> */}
-      <FormHandleForm />
+     {/*  <FormHandleForm /> */}
+     <FetchDataJavaScript />
     </div>
   );
 }
