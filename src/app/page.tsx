@@ -21,12 +21,17 @@ import CadastroUsuario from "./components/CadastroUsuario";
 import MeuFormulario from "./components/MeuFormulario";
 import FormHandleForm from "./components/FormHandleForm";
 import FetchDataJavaScript from "./components/FetchDataJavaScript";
+import LoginApi from "./components/LoginApi";
+import LoginFormAxioApi from "./components/LoginFormAxioApi";
+import CardChadcnUI from "./components/CardChadcnUI";
+import LogicaIntermedio from "./components/LogicaIntermedio";
+import LogicaDeBuscaLivros from "./components/LogicaDeBuscaLivros";
 
-export default function Home() {
+function Home() {
   return (
-    <div className="flex flex-col items-center justify-center p-20">
-      <h2 className="text-red-700 font-semibold pb-4 text-2xl">
-        API, React-Form, E Outras habilidades
+    <div className="flex flex-col items-center justify-center p-8">
+      <h2 className="font-semibold pb-4 text-2xl">
+        API, React-Form, Login E Outras habilidades.
       </h2>
       {/*  <FormReactHook /> */}
       {/* <GraficoRecharts /> */}
@@ -39,15 +44,23 @@ export default function Home() {
       {/*  <NoticationApiFalsa /> */}
       {/*   <EventCliick /> */}
       {/*  <RenderizaçãoCondicionalIf /> */}
-      {/*  <RenderizaçãoCondicionalCurtoCircuito /> */}
+      {/*   <RenderizaçãoCondicionalCurtoCircuito /> */}
       {/*  <JuntandoEventoMaisCondição /> */}
       {/*  <ProjetoPainelNotificação /> */}
       {/*   <ProjetoPainelN /> */}
-      {/* <FormularioLogin /> */}
+      {/*   <FormularioLogin /> */}
       {/*  <CadastroUsuario /> */}
-      {/*   <MeuFormulario /> */}
-     {/*  <FormHandleForm /> */}
-     <FetchDataJavaScript />
+      {/*  <MeuFormulario /> */}
+      {/*  <FormHandleForm /> */}
+      {/*  <FetchDataJavaScript /> */}
+      {/*   <FormularioLogin /> */}
+      {/*  <LoginApi /> */}
+      {/*  <LoginFormAxioApi /> */}
+     {/*  <CardChadcnUI /> */}
+   {/*   <LogicaIntermedio /> */}
+   <LogicaDeBuscaLivros />
     </div>
   );
 }
+
+export default Home;
