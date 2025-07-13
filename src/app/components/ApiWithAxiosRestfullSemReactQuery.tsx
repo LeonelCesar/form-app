@@ -1,4 +1,5 @@
 "use client"
+
 import useFetch from "../useFetch";
 
 type Repository = {

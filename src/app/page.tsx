@@ -35,7 +35,7 @@ function Home() {
       </h2>
       {/*  <FormReactHook /> */}
       {/* <GraficoRecharts /> */}
-      {/* <ApiWithReact /> */}
+     {/*  <ApiWithReact /> */}
       {/* <ApiWithAxios /> */}
       {/*  <ApiWithAxiosRestfullSemReactQuery /> */}
       {/*  <ApiWithAxiosComReactQuery /> */}
@@ -48,8 +48,8 @@ function Home() {
       {/*  <JuntandoEventoMaisCondição /> */}
       {/*  <ProjetoPainelNotificação /> */}
       {/*   <ProjetoPainelN /> */}
-      {/*   <FormularioLogin /> */}
-      {/*  <CadastroUsuario /> */}
+     {/*    <FormularioLogin /> */}
+       <CadastroUsuario />
       {/*  <MeuFormulario /> */}
       {/*  <FormHandleForm /> */}
       {/*  <FetchDataJavaScript /> */}
@@ -58,7 +58,7 @@ function Home() {
       {/*  <LoginFormAxioApi /> */}
      {/*  <CardChadcnUI /> */}
    {/*   <LogicaIntermedio /> */}
-   <LogicaDeBuscaLivros />
+  {/*  <LogicaDeBuscaLivros /> */}
     </div>
   );
 }

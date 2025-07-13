@@ -1,4 +1,3 @@
-
 import { useForm, SubmitHandler } from "react-hook-form";
 import { useState } from "react";
 
@@ -40,7 +39,7 @@ type FormValues = {
       onSubmit={handleSubmit(onSubmit)}
       className="max-w-md mx-auto mt-10 space-y-4 p-6 border rounded-2xl shadow bg-slate-100 text-slate-700"
     >
-      <h2 className="text-2xl font-bold mb-4">Cadastro de Usuário</h2>
+      <h2 className="text-2xl font-bold mb-4">Cadastro de Usuário e testes</h2>
 
       {mensagem && <p className="bg-green-100 text-green-700 p-2 rounded">{mensagem}</p>}
       {erro && <p className="bg-red-100 text-red-700 p-2 rounded">{erro}</p>}

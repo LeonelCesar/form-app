@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leonel César",
+      "email": "leonel@example.com",
+      "address": {
+        "street": "Rua das Rosas 123"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ana Martins",
+      "email": "ana@example.com",
+      "address": {
+        "street": "Av. Liberdade 45"
+      }
+    },
+       {
+      "id": 3,
+      "name": "Lanira Eloa",
+      "email": "lanirareis@gmail.com",
+      "address": {
+        "street": "Rua Miguel Bombarda Nº 225"
+      }
+    },
+       {
+      "id": 4,
+      "name": "Eloa Rafael Patrick",
+      "email": "eloarafaelpatrick@gmail.com",
+      "address": {
+        "street": "Av. Bartolomeu Figueras"
+      }
+    }
+  ]
+}
