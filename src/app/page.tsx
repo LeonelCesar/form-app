@@ -28,7 +28,7 @@ import LogicaIntermedio from "./components/LogicaIntermedio";
 import LogicaDeBuscaLivros from "./components/LogicaDeBuscaLivros";
 import { ButtonVariantElement } from "./components/ButtonVariantElement";
 import TestarButtonElemnte from "./components/TestarButtonVariantElemte";
-
+import InputFormulario from "./components/InputFormulario";
 
 function Home() {
   return (
@@ -62,8 +62,9 @@ function Home() {
       {/*  <CardChadcnUI /> */}
       {/*   <LogicaIntermedio /> */}
       {/*  <LogicaDeBuscaLivros /> */}
-      <ButtonVariantElement children={undefined} />
-      <TestarButtonElemnte />
+      {/*  <ButtonVariantElement children={undefined} /> */}
+      {/*   <TestarButtonElemnte /> */}
+      <InputFormulario />
     </div>
   );
 }
