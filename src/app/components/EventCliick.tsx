@@ -3,6 +3,7 @@ import { useState } from "react";
 
 function EventCliick() {
   const [alterarNome, setAlterarNome] = useState("Liquine César");
+  
   const handlerClcik = () => {
     setAlterarNome("Andarde Julião");
   };

@@ -26,6 +26,9 @@ import LoginFormAxioApi from "./components/LoginFormAxioApi";
 import CardChadcnUI from "./components/CardChadcnUI";
 import LogicaIntermedio from "./components/LogicaIntermedio";
 import LogicaDeBuscaLivros from "./components/LogicaDeBuscaLivros";
+import { ButtonVariantElement } from "./components/ButtonVariantElement";
+import TestarButtonElemnte from "./components/TestarButtonVariantElemte";
+
 
 function Home() {
   return (
@@ -35,7 +38,7 @@ function Home() {
       </h2>
       {/*  <FormReactHook /> */}
       {/* <GraficoRecharts /> */}
-     {/*  <ApiWithReact /> */}
+      {/*  <ApiWithReact /> */}
       {/* <ApiWithAxios /> */}
       {/*  <ApiWithAxiosRestfullSemReactQuery /> */}
       {/*  <ApiWithAxiosComReactQuery /> */}
@@ -48,17 +51,19 @@ function Home() {
       {/*  <JuntandoEventoMaisCondição /> */}
       {/*  <ProjetoPainelNotificação /> */}
       {/*   <ProjetoPainelN /> */}
-     {/*    <FormularioLogin /> */}
-       <CadastroUsuario />
+      {/*    <FormularioLogin /> */}
+      {/*   <CadastroUsuario /> */}
       {/*  <MeuFormulario /> */}
       {/*  <FormHandleForm /> */}
       {/*  <FetchDataJavaScript /> */}
       {/*   <FormularioLogin /> */}
       {/*  <LoginApi /> */}
       {/*  <LoginFormAxioApi /> */}
-     {/*  <CardChadcnUI /> */}
-   {/*   <LogicaIntermedio /> */}
-  {/*  <LogicaDeBuscaLivros /> */}
+      {/*  <CardChadcnUI /> */}
+      {/*   <LogicaIntermedio /> */}
+      {/*  <LogicaDeBuscaLivros /> */}
+      <ButtonVariantElement children={undefined} />
+      <TestarButtonElemnte />
     </div>
   );
 }

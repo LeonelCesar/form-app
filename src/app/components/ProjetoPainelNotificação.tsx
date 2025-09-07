@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Bell } from "lucide-react";
-import { div, p } from "framer-motion/client";
 
 function ProjetoPainelNotificação() {
   const [aberto, SetAberto] = useState(false);
