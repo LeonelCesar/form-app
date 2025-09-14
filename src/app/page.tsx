@@ -29,6 +29,12 @@ import LogicaDeBuscaLivros from "./components/LogicaDeBuscaLivros";
 import { ButtonVariantElement } from "./components/ButtonVariantElement";
 import TestarButtonElemnte from "./components/TestarButtonVariantElemte";
 import InputFormulario from "./components/InputFormulario";
+import RoboChat from "./components/RoboChat";
+import TodoList from "./components/TodoList";
+import NavbarHorizontal from "./components/NavbarHorizontal";
+import NavBarVerticalSidebar from "./components/NavBarVerticalSidbar";
+import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 function Home() {
   return (
@@ -64,7 +70,13 @@ function Home() {
       {/*  <LogicaDeBuscaLivros /> */}
       {/*  <ButtonVariantElement children={undefined} /> */}
       {/*   <TestarButtonElemnte /> */}
-      <InputFormulario />
+      {/*  <InputFormulario /> */}
+      {/*   <RoboChat /> */}
+     {/*  <TodoList /> */}
+    {/*  <NavbarHorizontal /> */}
+   {/*  <NavBarVerticalSidebar /> */}
+  {/*  <Card /> */}
+  <Footer />
     </div>
   );
 }
